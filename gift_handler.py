@@ -1,7 +1,7 @@
 from aiogram import Bot, Dispatcher, types
 from aiogram import Router, F, types
 from aiogram.filters import Command, CommandObject
-from config import BOT_TOKEN
+from userbot.config import BOT_TOKEN
 # import requests
 
 router = Router()
